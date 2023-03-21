@@ -39,9 +39,9 @@ users.Add(user5);
 
 
 var books = new List<Book>();
-var book1 = new Book("La Bibbia", 200, "fantascienza", "F666", new[] { "Gesu", "Cristo" }, 2000);
-var book2 = new Book("Il Corano", 300, "comico", "H1", new[] { "Maometto", "Marocco" }, 5000);
-var book3 = new Book("La Torà", 100, "finanza", "S68", new[] { "Davide", "Giudeo" }, 2700);
+var book1 = new Book("1984", 200, "fantascienza", "A99", new[] { "George", "Orwell" }, 2000);
+var book2 = new Book("Centanni di solitudine", 300, "romanzo", "C3", new[] { "Gabriel Garcia", "Marquez" }, 4000);
+var book3 = new Book("Il Decamerone", 100, "finanza", "C09", new[] { "Giovanni", "Boccaccio" }, 3500);
 
 books.Add(book1);
 books.Add(book2);
@@ -49,9 +49,9 @@ books.Add(book3);
 
 
 var DVDs = new List<DVD>();
-var DVD1 = new DVD("Star Wars", 1974, "fantascienza", "D57", new[] { "Chris", "Nolan" }, 180);
-var DVD2 = new DVD("Ritorno al Futuro", 1994, "drammatico", "F47", new[] { "John", "Johnny" }, 120);
-var DVD3 = new DVD("Il Signore Degli Anelli", 2001, "fantasy", "C69", new[] { "Steven", "Spielberg" }, 150);
+var DVD1 = new DVD("Il padrino", 1972, "fantascienza", "D57", new[] { "Francis", "Coppola" }, 100);
+var DVD2 = new DVD("Il Signore Degli Anelli", 2001, "fantasy", "C69", new[] { "Steven", "Spielberg" }, 300);
+var DVD3 = new DVD("I predatori dell'arca perduta", 1981, "fantasy", "C69", new[] { "Steven", "Spielberg" }, 300);
 
 DVDs.Add(DVD1);
 DVDs.Add(DVD2);
